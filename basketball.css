@@ -1,0 +1,74 @@
+
+.menu{
+    background-color: rgb(17, 13, 76);
+    max-width: 700px;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    position: relative;
+    text-align: center;
+}
+/* .home{
+    text-align: center;
+} */
+.home_num,.guest_num{
+    width: 100px;
+    height: 100px;
+    margin: 15px auto;
+    padding-top: 20px; 
+    background-color: #000;
+    font-size: 70px;
+}
+h1,h2{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+h1{
+    color: red;
+    font-family: 'Digital Dismay', Arial, sans-serif;
+}
+h2{
+    font-size: 40px;
+}
+.button{
+    width: 35px;
+    height: 30px;
+    color: #fff;
+    background-color: rgb(17, 13, 76);
+    border: 1px solid rgb(151, 153, 154);
+    justify-content: center;
+    font-family: 'Digital Dismay', Arial, sans-serif;
+}
+.button:hover{
+    background-color: rgb(60, 60, 101);
+    cursor: pointer;
+}
+
+.finished{
+    padding: 10px;
+    background-color: green;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    bottom: 25px;
+    border-radius: 20px;
+    font-family:  Arial, sans-serif;
+
+}
+.finished:hover{
+    background-color: rgb(90, 193, 42);
+
+}
+p{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(17, 13, 76);
+}
